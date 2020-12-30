@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Montserrat;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    background: #000000;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 30px;
+    list-style: none;
+}
+
+.nav-item a {
+    color: #9A9A9A;
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
+}
+.hero-content {
+    display: flex;
+    color: #9A9A9A;
+}
+.hero-content .hero_text {
+    margin-top: 110px;
+}
+.hero-content .hero_text .hero_name {
+    position: relative;
+    margin: 20px;
+}
+.hero-content .hero_text .hero_name h1 {
+    font-size: 70px;
+}
+.hero-content .hero_text .hero_name h1 span {
+    position: absolute;
+    top: -10px;
+    color: #ED1C24;
+    font-size: 40px;
+}
+.hero-content .hero-image img {
+    width: 600px;
+}
+.hero-content .hero_text .hero_price {
+    margin: 20px;
+    font-size: 30px;
+}
+.hero-content .hero_text .hero_advantages li {
+    list-style: none;
+    padding: 5px;
+}
+
+.hero-content .hero_text .hero_advantages li::before {
+    content: "*";
+    height: 70px;
+    width: 10px;
+    background-color: #000000;
+    margin: 10px;
+    color: #9A9A9A;
+    font-weight: bold;
+}
+.hero_button {
+    margin: 10px;
+}
+.hero_button button {
+    border: none;
+    background: #ED1C24;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.social {
+    margin-top: 60px;
+    position: absolute;
+    right: 30px;
+}
+
+.social_icon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    align-items: center;
+}
+.social_icon a {
+    color: #9A9A9A;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.social .line {
+    height: 120px;
+    background: #9A9A9A;
+    margin-top: 20px;
+    width: 5px;
+    position: absolute;
+    right: 28px;
+}
+.social .play{
+    position: absolute;
+    bottom: -200px;
+    right: 18px;
+    color: #9A9A9A;
+    align-items: center;
+    text-align: center;
+}
+.social .play a {
+    color: #9A9A9A;
+    font-size: 25px;
+}
